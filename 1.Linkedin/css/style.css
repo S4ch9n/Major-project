@@ -4,6 +4,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
 /* from this navigation css will be used  */
 .navigation {
     display: flex;
@@ -31,8 +32,9 @@
     border: none;
 
 }
-.navigation>.left-nav>input:hover{
-    padding:10px;
+
+.navigation>.left-nav>input:hover {
+    padding: 10px;
     transition: 0.3s ease-out;
 }
 
@@ -62,14 +64,14 @@
 
 .navigation>.right-nav>ul>a :hover {
     background-color: gainsboro;
-    transform : translateY(5px);
+    transform: translateY(5px);
     transition: 0.5s ease-in-out;
 }
 
 /* from this navigation css will be end  */
 
-.selcet-wrapper{
-    width:10px;
+.selcet-wrapper {
+    width: 10px;
 }
 
 /* from this we will style left section pannel */
@@ -156,6 +158,7 @@ span {
 .recent-activity>p {
     padding: 5px;
 }
+
 /*left section pannel end */
 
 
@@ -235,7 +238,7 @@ span {
 
 .mid-bottom-section {
     border: 1px solid gray;
-    padding:20px;
+    padding: 20px;
 }
 
 .mid-bottom-section>ul {
@@ -244,48 +247,60 @@ span {
     gap: 50px;
     margin-top: 20px;
 }
+
 /* end mid section styles  */
 
 /* right section styles */
-.right-section{
+.right-section {
     width: 20vw;
     height: 200vh;
     position: absolute;
-    left:999px;
+    left: 999px;
     top: 0px;
 }
-.top-right-section , .mid-right-section{
-  border: 1px solid gray;
+
+.top-right-section,
+.mid-right-section {
+    border: 1px solid gray;
     padding: 30px;
 }
-.left-right , .top-bottom-right-section{
+
+.left-right,
+.top-bottom-right-section {
     display: flex;
     justify-content: space-between;
 }
-.top-bottom-right-section > ul > li {
+
+.top-bottom-right-section>ul>li {
     margin-top: 10px;
     padding: 10px;
 }
-.mid-right-section , .bottom-right-section{
+
+.mid-right-section,
+.bottom-right-section {
     margin-top: 50px;
     border: 1px solid gray;
     padding: 15px;
 }
+
 .bottom-mid-right-left img {
-    width:100px;
+    width: 100px;
 }
-.bottom-mid-right-left{
+
+.bottom-mid-right-left {
     display: flex;
-  justify-content: center;
-  align-items: center;
-  margin:20px;
- 
-    
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+
 }
-.follow-button > h3{
+
+.follow-button>h3 {
     text-align: center;
     margin-top: 20px;
     border: 1px solid black;
-    border-radius:20px;
+    border-radius: 20px;
 }
+
 /* end right section styles */
